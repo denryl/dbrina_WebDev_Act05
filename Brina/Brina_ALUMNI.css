@@ -1,0 +1,153 @@
+.header {
+  overflow: hidden;
+  background-color: #E55C7A;
+  height: 80px;
+  width: auto;
+  margin-top: 35px;
+  z-index: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.uic{
+  width: 125px;
+  height: 125px;
+  margin-right: 10px;
+  z-index: 1;
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  z-index: 1;
+}
+
+h1{
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+.sidenavleft{
+  height: 500px;
+  width: 325px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-left: 40px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 150px;
+}
+
+.wow:hover{
+  background: darkgrey;
+}
+
+.sidenavcenter{
+  height: 2000px;
+  width: 777px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-left: 365px;
+  background-color: #E2D6D8;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 115px;
+}
+h2.lol{
+  font-size: 25px;
+  color: #black;
+  margin-top: 5px;
+}
+
+.h12{
+  margin-right: 80px;
+}
+
+img.cul{
+  height: 390px; 
+  width: 770px;
+}
+
+.sidenavright{
+  height: 500px;
+  width: 325px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 40px;
+  border-radius: 30px;
+  background-color: #E2D6D8;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 150px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  border: 1px solid #555;
+}
+
+a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  size: 15px;
+}
+
+a:hover{
+  background: darkgrey;
+}
+
+b{
+  color: dodgerblue;
+}
+
+.logout{
+  margin-left: 20px;
+  border-radius: 30px;
+  width: 124px;
+  height: 45px;
+  background: #e65b7a;
+  color: white;
+}
+
+.logout:hover{
+  background: pink;
+}
+
+.btn {
+  border: none;
+  background-color: #E55C7A;
+  border-radius: 30px;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.btn:hover {
+  background: #E55C7A;
+}
+
+.success {
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 1475px;
+   background: #E55C7A;
+   color: white;
+   margin-left: 30px;
+   text-align: center;
+}
